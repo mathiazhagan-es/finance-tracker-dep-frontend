@@ -38,7 +38,7 @@ function Addform() {
 
 
         <form className='form-group' onSubmit={onsubmit}>
-                <label>DESC</label><input className='form-control col-11 ' type='text' name='desc' onChange={(e)=>setDesc(e.target.value)} placeholder='desc' required></input><br></br>
+                <label>DESCRIPTION</label><input className='form-control col-11 ' type='text' name='desc' onChange={(e)=>setDesc(e.target.value)} placeholder='desc' required></input><br></br>
                 <label>AMOUNT</label><input className='form-control col-11' type='number' name='amount' onChange={(e)=>setAmount(e.target.value)} placeholder='amount' required></input><br></br>
                 <label>TRANSACTION TYPE</label><select className='form-control col-11' onChange={(e=>setTrans(e.target.value))}>
                      <option value="0">debit</option>
