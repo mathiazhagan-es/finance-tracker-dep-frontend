@@ -47,7 +47,7 @@ const onlogin=(e)=>{
             <br></br></div>
             <label >PASSWORD</label><input className=' col-sn-12 col-md-5 form-control' type='text' name='password' onChange={(e)=>setPassword(e.target.value)} placeholder='password' required></input>
             <br></br>
-            <button className='btn btn-primary'>subbmit</button>
+            <button className='btn btn-primary'>submit</button>
 
 
         </form>
